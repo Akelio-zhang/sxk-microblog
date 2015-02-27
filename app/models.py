@@ -50,15 +50,15 @@ class User(db.Model):
         # my own steam info
         if self.steam_id:
             url = 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=090B8FBA169177A04FFB10777A0C2F41&steamids=' + self.steam_id
+            data = json.loads(requests.get(url).text)
+            if size == 'm':
+                s = data['response']['players'][0]['avatarmedium']
+            elif size == 'f':
+                s = data['response']['players'][0]['avatarfull']
+            else:
+                s = data['response']['players'][0]['avatar']
         else:
-            url = 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=090B8FBA169177A04FFB10777A0C2F41&steamids=76561198104913257'
-        data = json.loads(requests.get(url).text)
-        if size == 'm':
-            s = data['response']['players'][0]['avatarmedium']
-        elif size == 'f':
-            s = data['response']['players'][0]['avatarfull']
-        else:
-            s = data['response']['players'][0]['avatar']
+            s = '/static/img/default.jpg'
         return s
 
     @staticmethod
