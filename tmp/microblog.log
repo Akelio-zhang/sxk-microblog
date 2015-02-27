@@ -232,3 +232,5 @@ TypeError: 'OpenIDResponse' object is not callable
 2015-02-18 13:26:15,414 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
 2015-02-27 11:49:30,914 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:61]
 2015-02-27 11:49:31,996 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:61]
+2015-02-27 13:33:42,808 INFO: microblog startup [in C:\Users\zhang\Documents\GitHub\sxk-microblog\app\__init__.py:61]
+2015-02-27 13:33:43,734 INFO: microblog startup [in C:\Users\zhang\Documents\GitHub\sxk-microblog\app\__init__.py:61]
