@@ -1,0 +1,234 @@
+2015-02-09 13:58:21,282 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 13:58:21,979 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 13:58:34,036 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:19:57,625 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:19:58,276 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:21:13,851 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:21:14,434 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:25:28,561 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:26:48,134 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:29:21,415 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 14:29:44,852 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 23:19:44,888 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-09 23:19:45,529 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 09:04:57,477 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 09:04:58,496 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 09:23:47,421 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 09:24:48,424 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 09:59:21,934 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:00:01,996 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:12:22,256 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:12:42,349 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:12:54,960 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:49:25,375 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 10:50:18,394 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 16:32:10,822 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 16:32:11,573 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 16:46:00,762 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-10 16:59:03,217 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:54:42,487 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:54:56,977 ERROR: Exception on /login [GET] [in C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask_openid.py", line 502, in decorated
+    openid_response, self.extension_responses))
+  File "C:\Users\zhang\Desktop\microblog\app\views.py", line 71, in after_login
+    db.session.add(user.follow(user))
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\sqlalchemy\orm\scoping.py", line 149, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\sqlalchemy\orm\session.py", line 1395, in add
+    raise exc.UnmappedInstanceError(instance)
+UnmappedInstanceError: Class '__builtin__.NoneType' is not mapped
+2015-02-11 08:55:28,279 ERROR: Exception on /login [GET] [in C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask_openid.py", line 502, in decorated
+    openid_response, self.extension_responses))
+  File "C:\Users\zhang\Desktop\microblog\app\views.py", line 71, in after_login
+    db.session.add(user.follow(user))
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\sqlalchemy\orm\scoping.py", line 149, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\sqlalchemy\orm\session.py", line 1395, in add
+    raise exc.UnmappedInstanceError(instance)
+UnmappedInstanceError: Class '__builtin__.NoneType' is not mapped
+2015-02-11 08:57:02,095 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:57:02,653 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:57:54,030 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:58:14,381 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 08:59:24,720 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:01:46,756 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:02:01,875 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:02:02,457 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:03:16,145 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:04:44,032 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:05:42,476 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:05:51,848 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:05:52,418 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:07:29,798 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:07:30,371 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:12:15,592 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:13:26,533 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:13:38,000 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:14:30,688 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:20:15,750 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:26:36,181 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:26:36,831 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:28:27,569 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:29:14,086 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:29:53,546 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:31:24,717 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:31:25,286 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:38:25,477 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 09:38:26,128 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 12:11:28,355 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-11 12:11:29,161 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 10:28:18,831 INFO: microblog startup [in app\__init__.py:35]
+2015-02-13 10:29:42,446 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 10:29:43,127 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 10:55:38,315 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 10:55:38,944 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:18:50,178 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:18:51,056 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:25:05,398 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:27:45,477 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:27:58,519 ERROR: Exception on /login [GET] [in C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1478, in full_dispatch_request
+    response = self.make_response(rv)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\flask\app.py", line 1577, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\werkzeug\wrappers.py", line 841, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\werkzeug\wrappers.py", line 57, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "C:\Users\zhang\Desktop\microblog\flask\lib\site-packages\werkzeug\test.py", line 867, in run_wsgi_app
+    app_iter = app(environ, start_response)
+TypeError: 'OpenIDResponse' object is not callable
+2015-02-13 11:28:28,586 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:28:29,236 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:30:12,391 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:30:13,053 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:30:15,026 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 11:30:15,710 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:35]
+2015-02-13 12:02:21,752 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:02:22,463 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:09:22,523 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:09:23,227 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:10:50,519 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:28:30,051 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:28:30,726 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:53:54,871 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:54:15,260 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:54:30,180 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:54:39,549 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:55:38,062 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 12:57:10,963 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 13:01:26,973 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-13 13:14:18,630 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-14 13:54:45,838 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-14 13:54:46,599 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-14 14:02:32,372 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-14 17:10:08,286 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-14 17:10:09,845 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 09:49:45,854 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 09:49:46,621 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 09:54:20,842 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 09:54:21,661 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:02:43,753 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:02:43,753 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:13:19,243 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:14:40,539 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:17:41,322 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:18:05,960 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:26:45,030 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:49:20,076 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:49:20,769 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:50:19,137 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 10:53:30,569 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:02:30,631 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:02:31,339 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:05:00,720 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:08:02,105 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:11:54,476 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:13:12,477 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:16:18,157 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:30:29,148 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:30:29,806 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:33:04,778 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:33:34,414 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:36:15,040 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:36:19,003 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:40:44,625 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:40:57,892 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:43:49,365 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:44:49,174 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:44:49,872 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:48:38,680 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:49:13,698 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 11:55:07,342 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:38]
+2015-02-15 13:24:36,470 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:40]
+2015-02-15 13:24:37,253 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:40]
+2015-02-16 10:28:33,443 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:42]
+2015-02-16 10:28:34,092 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:42]
+2015-02-16 10:43:55,453 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:42]
+2015-02-16 10:43:56,217 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:42]
+2015-02-16 11:19:50,092 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:43]
+2015-02-16 11:19:50,739 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:43]
+2015-02-16 11:21:05,960 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:44]
+2015-02-16 11:21:22,257 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:21:43,516 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:43:05,500 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:44:03,680 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:49:41,267 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:59:12,190 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 11:59:12,848 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 12:05:54,414 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 12:05:55,038 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 12:43:02,250 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 12:43:02,923 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 12:53:51,243 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 13:06:37,799 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-16 13:06:38,507 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 11:25:32,184 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 11:52:08,601 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:07:28,328 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:11:23,796 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:13:46,559 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:18:52,155 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:20:45,960 INFO: microblog startup [in app\__init__.py:58]
+2015-02-17 12:45:29,476 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 12:47:52,953 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 12:47:53,983 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 12:51:25,214 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 14:17:32,305 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 14:17:33,279 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 14:58:22,892 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 14:58:23,960 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 15:04:43,380 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 15:04:54,530 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 15:05:11,457 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-17 15:05:19,466 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-18 13:20:15,957 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-18 13:26:15,414 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:58]
+2015-02-27 11:49:30,914 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:61]
+2015-02-27 11:49:31,996 INFO: microblog startup [in C:\Users\zhang\Desktop\microblog\app\__init__.py:61]
